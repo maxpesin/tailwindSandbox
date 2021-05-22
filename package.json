@@ -4,7 +4,7 @@
   "description": "Tailwind & PostCSS Sandbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no text specified\" && exit 1"
+    "dev": "postcss resources/styles/app.css -o public/app.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.3.0",
     "tailwindcss": "^2.1.2"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
   }
 }
