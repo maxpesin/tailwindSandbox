@@ -4,8 +4,8 @@
   "description": "Tailwind & PostCSS Sandbox",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss resources/styles/app.css -o public/app.css",
-    "prod": "cross-env NODE_ENV=production postcss resources/styles/app.css -o public/app.css"
+    "dev": "postcss resources/styles/tailwind.css -o public/tailwind.css",
+    "prod": "cross-env NODE_ENV=production postcss resources/styles/tailwind.css -o public/tailwind.css"
   },
   "repository": {
     "type": "git",
